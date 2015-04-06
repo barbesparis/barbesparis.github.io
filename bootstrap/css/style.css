@@ -23,6 +23,10 @@ body{
   margin-top:40px
 }
 
+.m52{
+  margin-top:52px
+}
+
 .padding-text{
   padding-right:73px;
   padding-left:62px;
@@ -47,4 +51,8 @@ a:hover{
 }
 .m90{
   margin-top:90px;
+}
+
+.image{
+  width:800px;
 }
