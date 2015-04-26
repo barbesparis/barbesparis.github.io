@@ -10,7 +10,7 @@
 }
 
 body{
-  background:#FD8F21;
+  background:white;
   font-family: 'CaviarDreams', Arial, sans-serif;
   font-weight:normal;
 }
@@ -21,6 +21,22 @@ h1, h2, h3, h4, h5 {
 
 h4 {
   font-size:19px;
+}
+
+.orange{
+  background:#FD8F21;
+}
+
+.rose{
+  background:#fb1071;
+}
+
+.blue{
+  background:#4955ad;
+}
+
+.beige{
+  background:#e7eacb;
 }
 
 .center{
@@ -66,7 +82,7 @@ a{
 }
 
 a:hover{
-  color:white;
+  color:#FD8F21;
   text-decoration:none;
 }
 
