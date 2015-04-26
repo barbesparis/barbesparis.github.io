@@ -1,10 +1,36 @@
+@font-face{
+  font-family: 'CaviarDreams';
+  src: url('CaviarDreams.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'CaviarDreamsBold';
+  src: url('Caviar_Dreams_Bold.ttf') format('truetype');
+}
+
 body{
   background:#FD8F21;
+  font-family: 'CaviarDreams', Arial, sans-serif;
+  font-weight:normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'CaviarDreamsBold', Arial, sans-serif;
+}
+
+h4 {
+  font-size:19px;
 }
 
 .center{
   text-align:center;
 }
+
+.m2O{
+  margin-top:20px;
+}
+
 .m170{
   margin-top:170px;
 }
@@ -17,7 +43,7 @@ body{
   margin-top:280px;
 }
 .container{
-  width:900px;
+  width:1000px;
 }
 .m40{
   margin-top:40px
@@ -43,6 +69,11 @@ a:hover{
   color:white;
   text-decoration:none;
 }
+
+.f16{
+  font-size:16px;
+}
+
 .text-equipe{
   font-size:18px;
 }
